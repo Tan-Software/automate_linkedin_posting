@@ -72,9 +72,7 @@ def get_document(filename):
 def check_documents_every_hour():
     documents_in_repertory = glob.glob("./scheduled_posts/*.docx")
     current_date_minus_one_hour = datetime.today() - timedelta(hours=1)
-    current_date_minus_one_hour =  current_date_minus_one_hour.strftime("%H:%M")
     current_date_plus_one_hour = datetime.today() + timedelta(hours=1)
-    current_date_plus_one_hour =  current_date_plus_one_hour.strftime("%H:%M")
 
     for key, filename in enumerate(documents_in_repertory):
         cleaned_filename = re.sub(r'^.*?___', '', filename).split('.docx')[0].split('__')
