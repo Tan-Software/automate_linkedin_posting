@@ -1,5 +1,5 @@
 <p id="start" align="center">
-<h1 align="center"><a href="www.tansoftware.com">TANSOFTWARE</a></h1>
+<h1 align="center"><a href="https://www.tansoftware.com">TANSOFTWARE</a></h1>
 <p align="center">
 <a href="#english">English</a>  | <a href="#french">French</a> 
 </p>
